@@ -31,8 +31,6 @@ module LdAggregation
                 s.transition, s.spent_in_light]
     end
 
-    
-
     CSV.open(output, 'w') do |csv|
       lines.each { |l| csv << l }
     end
