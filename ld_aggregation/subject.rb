@@ -1,5 +1,4 @@
 require './ld_aggregation/time_bin'
-require 'pry'
 
 module LdAggregation
 

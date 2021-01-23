@@ -1,7 +1,6 @@
 require 'csv'
 #require 'charlock_holmes'
 require './ld_aggregation/subject'
-require 'pry'
 
 module LdAggregation
 
